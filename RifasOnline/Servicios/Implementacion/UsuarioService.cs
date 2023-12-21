@@ -35,11 +35,15 @@ namespace RifasOnline.Servicios.Implementacion
             return usuario_encontrado;
         }
 
-        public async Task<Usuario> SaveUsuario(Usuario modelo)
+        public async Task<bool> SaveUsuario(Usuario modelo)
         {
             _Context.Usuarios.Add(modelo);
-            await _Context.SaveChangesAsync();
-            return modelo;
+            var ressultado = await _Context.SaveChangesAsync();
+            
+            if (ressultado == 1)
+                return true;
+            else
+                return false;
         }
 
         public async Task<bool> UpdateUsuario(Usuario modelo)

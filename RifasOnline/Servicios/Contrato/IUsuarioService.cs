@@ -7,7 +7,8 @@ namespace RifasOnline.Servicios.Contrato
     {
         Task<Usuario> GetUsuario(string correo, string clave);
         Task<bool> GetEmailUsuario(string correo);
-        Task<Usuario> SaveUsuario(Usuario modelo);
+        //Task<Usuario> SaveUsuario(Usuario modelo);
+        Task<bool> SaveUsuario(Usuario modelo);
         Task<bool>  UpdateUsuario(Usuario modelo);
 
     }

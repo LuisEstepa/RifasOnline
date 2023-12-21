@@ -5,14 +5,22 @@ using System.Security.Claims;
 using RifasOnline.Servicios.Contrato;
 using RifasOnline.Recursos;
 using RifasOnline.Models.Entities;
+using RifasOnline.Models.DTO;
+using RifasOnline.Servicios.Implementacion;
+using Microsoft.AspNetCore.Http;
+using System.IO;
+using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
+
 namespace RifasOnline.Controllers
 {
     public class InicioController : Controller
     {
         private readonly IUsuarioService _usuarioServicio;
-        public InicioController(IUsuarioService usuarioServicio)
+        private readonly IHostingEnvironment _hostingEnvironment;
+        public InicioController(IUsuarioService usuarioServicio, IHostingEnvironment hostingEnvironment)
         {
             _usuarioServicio = usuarioServicio;
+            _hostingEnvironment = hostingEnvironment;
         }
 
         public IActionResult Registrarse()
@@ -32,29 +40,46 @@ namespace RifasOnline.Controllers
             {
                 if(await _usuarioServicio.GetEmailUsuario(modelo.Correo) == false)
                 {
-                    Usuario usuario_creado = await _usuarioServicio.SaveUsuario(modelo);
+                    bool respuesta = await _usuarioServicio.SaveUsuario(modelo);
 
-                    if (usuario_creado.IdUsuario > 0)
+                    if (respuesta == true)
                     {
-                       return RedirectToAction("IniciarSesion", "Inicio");
+
+                        //string path = Path.Combine(_hostingEnvironment.WebRootPath, "Plantilla", "Confirmar.html");
+                        //string content = ReadAllText(path);
+
+                        //string url = string.Concat(Request.Scheme, "://", Request.Host.Value, "/Inicio/Confirmar?token=", modelo.Token);
+
+                        //string htmlBody = string.Format(content, modelo.NombreUsuario, url);
+
+                        //CorreoDTO correoDTO = new CorreoDTO()
+                        //{
+                        //    Destinatario = modelo.Correo,
+                        //    Asunto = "Correo confirmacion",
+                        //    Contenido = htmlBody
+                        //};
+
+                        //bool enviado = CorreoServicio.SendEmail(correoDTO);
+                        //ViewBag.Creado = true;
+                        //ViewBag.Mensaje = $"Su cuenta ha sido creada. Hemos enviado un mensaje al correo {modelo.Correo} para confirmar su cuenta";
+
+
+                        return RedirectToAction("IniciarSesion", "Inicio");
                     }
                     else
                     {
                        ViewData["Mensaje"] = "No se pudo crear el usuario";
                     }
-
                 }else
                 {
                     ViewData["Mensaje"] = "El email ya se encuentra registrado revise!!";
                 }
-
             }
             else
             {
                 ViewBag.Nombre = modelo.NombreUsuario;
                 ViewBag.Correo = modelo.Correo;
                 ViewData["Mensaje"] = "Las contranseñas no coinciden revise!!";
-
             }
             return View();       
         }

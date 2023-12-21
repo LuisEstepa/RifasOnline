@@ -516,7 +516,9 @@ E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\RifasOnline.dll
 E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\RifasOnline.pdb
 E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\Azure.Core.dll
 E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\Azure.Identity.dll
+E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\Humanizer.dll
+E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\MailKit.dll
 E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.dll
 E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter.dll
 E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
@@ -560,6 +562,7 @@ E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\Microsoft.VisualStudio.We
 E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\MimeKit.dll
 E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\Mono.TextTemplating.dll
 E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\Newtonsoft.Json.dll
 E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\NuGet.Common.dll
@@ -761,6 +764,3 @@ E:\Desarrollo\RifasOnline\RifasOnline\obj\Debug\net8.0\refint\RifasOnline.dll
 E:\Desarrollo\RifasOnline\RifasOnline\obj\Debug\net8.0\RifasOnline.pdb
 E:\Desarrollo\RifasOnline\RifasOnline\obj\Debug\net8.0\RifasOnline.genruntimeconfig.cache
 E:\Desarrollo\RifasOnline\RifasOnline\obj\Debug\net8.0\ref\RifasOnline.dll
-E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
-E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\MailKit.dll
-E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\MimeKit.dll
