@@ -761,3 +761,6 @@ E:\Desarrollo\RifasOnline\RifasOnline\obj\Debug\net8.0\refint\RifasOnline.dll
 E:\Desarrollo\RifasOnline\RifasOnline\obj\Debug\net8.0\RifasOnline.pdb
 E:\Desarrollo\RifasOnline\RifasOnline\obj\Debug\net8.0\RifasOnline.genruntimeconfig.cache
 E:\Desarrollo\RifasOnline\RifasOnline\obj\Debug\net8.0\ref\RifasOnline.dll
+E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\MailKit.dll
+E:\Desarrollo\RifasOnline\RifasOnline\bin\Debug\net8.0\MimeKit.dll

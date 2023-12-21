@@ -12,7 +12,7 @@ namespace RifasOnline.Controllers
         private readonly IUsuarioService _usuarioServicio;
         public InicioController(IUsuarioService usuarioServicio)
         {
-            _usuarioServicio = usuarioServicio;            
+            _usuarioServicio = usuarioServicio;
         }
 
         public IActionResult Registrarse()
@@ -26,27 +26,37 @@ namespace RifasOnline.Controllers
             modelo.Clave = Utilidades.EncriptarClave(modelo.Clave);
             var ConfirmarClave = Utilidades.EncriptarClave(modelo.ConfirmarClave);
             modelo.Restablecer = false;
-            modelo.Token = "";
-
+            modelo.Token = Utilidades.GenerarToken();            
+            
             if (ConfirmarClave == modelo.Clave)
             {
-                Usuario usuario_creado = await _usuarioServicio.SaveUsuario(modelo);
+                if(await _usuarioServicio.GetEmailUsuario(modelo.Correo) == false)
+                {
+                    Usuario usuario_creado = await _usuarioServicio.SaveUsuario(modelo);
 
-                if (usuario_creado.IdUsuario > 0)
+                    if (usuario_creado.IdUsuario > 0)
+                    {
+                       return RedirectToAction("IniciarSesion", "Inicio");
+                    }
+                    else
+                    {
+                       ViewData["Mensaje"] = "No se pudo crear el usuario";
+                    }
+
+                }else
                 {
-                    return RedirectToAction("IniciarSesion", "Inicio");
+                    ViewData["Mensaje"] = "El email ya se encuentra registrado revise!!";
                 }
-                else
-                {
-                    ViewData["Mensaje"] = "No se pudo crear el usuario";
-                }
+
             }
             else
             {
+                ViewBag.Nombre = modelo.NombreUsuario;
+                ViewBag.Correo = modelo.Correo;
                 ViewData["Mensaje"] = "Las contranseñas no coinciden revise!!";
-            }
 
-            return View();
+            }
+            return View();       
         }
 
         public async Task<IActionResult> ActualizarClave()
@@ -101,6 +111,15 @@ namespace RifasOnline.Controllers
             {
                 ViewData["Mensaje"] = "No se encontraron coincidencias";
                 return View();
+
+            }
+            if (usuario_encontrado.Confirmado == false)
+            {
+                ViewData["Mensaje"] = $"Falta confirmar su cuenta. Sele envio un correo a {correo}";
+            }
+            else if (usuario_encontrado.Restablecer == false)
+            {
+                ViewData["Mensaje"] = $"Se ha solicitado restablecer su cuenta, por favor revise su bandeja de correo {correo}";
             }
 
             List<Claim> claims = new List<Claim>() {

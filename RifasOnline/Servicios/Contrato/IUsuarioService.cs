@@ -6,6 +6,7 @@ namespace RifasOnline.Servicios.Contrato
     public interface IUsuarioService
     {
         Task<Usuario> GetUsuario(string correo, string clave);
+        Task<bool> GetEmailUsuario(string correo);
         Task<Usuario> SaveUsuario(Usuario modelo);
         Task<bool>  UpdateUsuario(Usuario modelo);
 
