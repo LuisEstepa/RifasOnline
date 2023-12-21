@@ -1,15 +1,10 @@
 ﻿@using RifasOnline.Models.Entities
 @model Usuario;
-@{
-    Layout = null;
-}
-
-<!DOCTYPE html>
 
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Registrarse</title>
+    <title>ActualizarClave</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
 </head>
 <body>
@@ -22,18 +17,19 @@
 
                 <div class="card">
                     <div class="card-header">
-                        Registrate
+                        ActualizarClave
                     </div>
                     <div class="card-body">
 
-                        <form asp-controller="Inicio" asp-action="Registrarse" method="post">
+                        <form asp-controller="Inicio" asp-action="ActualizarClave" method="post">
 
-                            <input class="form-control mb-3" type="text" placeholder="Nombre Completo" asp-for="NombreUsuario" required />
+                            @* <input class="form-control mb-3" type="text" placeholder="Nombre Completo" asp-for="NombreUsuario" required /> *@
+                            
                             <input class="form-control mb-3" type="text" placeholder="Correo" required asp-for="Correo" />
                             <input class="form-control mb-3" type="password" placeholder="Contraseña" required asp-for="Clave" />
                             <input class="form-control mb-3" type="password" placeholder="Confirmar Contraseña" required asp-for="ConfirmarClave" />
                             <div class="d-grid gap-2 mb-3">
-                                <button class="btn btn-primary" type="submit">Registrate</button>
+                                <button class="btn btn-primary" type="submit">Enviar contraseña nueva</button>
                             </div>
                             @if (ViewData["Mensaje"] != null)
                             {
@@ -61,3 +57,4 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+

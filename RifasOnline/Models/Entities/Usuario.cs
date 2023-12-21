@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace RifasOnline.Models
+namespace RifasOnline.Models.Entities
 {
     [Table("USUARIO")]
     public class Usuario
@@ -14,5 +14,13 @@ namespace RifasOnline.Models
         public string? Correo { get; set; }
 
         public string? Clave { get; set; }
+
+        [NotMapped]
+        public string? ConfirmarClave { get; set; }
+        public bool? Restablecer { get; set; }
+
+        [NotMapped]
+        public bool? Confirmado { get; set; }
+        public string? Token { get; set; }
     }
 }

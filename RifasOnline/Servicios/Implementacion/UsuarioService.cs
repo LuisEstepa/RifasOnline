@@ -1,21 +1,22 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using RifasOnline.Models;
+using RifasOnline.Models.Entities;
 using RifasOnline.Servicios.Contrato;
 
 namespace RifasOnline.Servicios.Implementacion
 {
     public class UsuarioService : IUsuarioService
     {
-        private readonly DbRifasOnlineContext _dbContext;
+        private readonly DbRifasOnlineContext _Context;
         public UsuarioService(DbRifasOnlineContext dbContext)
         {
-            _dbContext = dbContext;
+            _Context = dbContext;
         }
 
         public async Task<Usuario> GetUsuario(string correo, string clave)
         {
-            Usuario usuario_encontrado = await _dbContext.Usuarios.Where(u => u.Correo == correo && u.Clave == clave)
+            Usuario usuario_encontrado = await _Context.Usuarios.Where(u => u.Correo == correo && u.Clave == clave)
                  .FirstOrDefaultAsync();
 
             return usuario_encontrado;
@@ -23,9 +24,23 @@ namespace RifasOnline.Servicios.Implementacion
 
         public async Task<Usuario> SaveUsuario(Usuario modelo)
         {
-            _dbContext.Usuarios.Add(modelo);
-            await _dbContext.SaveChangesAsync();
+            _Context.Usuarios.Add(modelo);
+            await _Context.SaveChangesAsync();
             return modelo;
         }
+
+        public async Task<bool> UpdateUsuario(Usuario modelo)
+        {
+            Usuario UsuarioActualizar = await _Context.Usuarios.Where(l => l.Token == modelo.Token).FirstOrDefaultAsync();
+            UsuarioActualizar.Clave = modelo.Clave;
+            UsuarioActualizar.Restablecer = modelo.Restablecer;
+            _Context.Entry(UsuarioActualizar).State = EntityState.Modified;
+             
+            if(_Context.SaveChanges() == 1)
+                return true;
+            else 
+                return false;
+        }
+        
     }
 }

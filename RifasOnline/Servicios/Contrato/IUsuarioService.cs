@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using RifasOnline.Models;
+using RifasOnline.Models.Entities;
 
 namespace RifasOnline.Servicios.Contrato
 {
@@ -7,6 +7,7 @@ namespace RifasOnline.Servicios.Contrato
     {
         Task<Usuario> GetUsuario(string correo, string clave);
         Task<Usuario> SaveUsuario(Usuario modelo);
+        Task<bool>  UpdateUsuario(Usuario modelo);
 
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using RifasOnline.Models.Entities;
 
 namespace RifasOnline.Models
 {
