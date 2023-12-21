@@ -14,6 +14,19 @@ namespace RifasOnline.Servicios.Implementacion
             _Context = dbContext;
         }
 
+        public async Task<bool> GetEmailUsuario(string correo)
+        {
+            Usuario usuario_encontrado = await _Context.Usuarios.Where(u => u.Correo == correo)
+                 .FirstOrDefaultAsync();
+
+            if (usuario_encontrado != null)
+            
+                return true;
+            else 
+                return false;            
+                
+        }
+
         public async Task<Usuario> GetUsuario(string correo, string clave)
         {
             Usuario usuario_encontrado = await _Context.Usuarios.Where(u => u.Correo == correo && u.Clave == clave)
