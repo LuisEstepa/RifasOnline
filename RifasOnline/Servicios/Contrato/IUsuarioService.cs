@@ -10,6 +10,8 @@ namespace RifasOnline.Servicios.Contrato
         //Task<Usuario> SaveUsuario(Usuario modelo);
         Task<bool> SaveUsuario(Usuario modelo);
         Task<bool>  UpdateUsuario(Usuario modelo);
+        Task<bool> Confirmar(string token);
+
 
     }
 }

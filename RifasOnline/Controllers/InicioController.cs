@@ -16,11 +16,12 @@ namespace RifasOnline.Controllers
     public class InicioController : Controller
     {
         private readonly IUsuarioService _usuarioServicio;
-        private readonly IHostingEnvironment _hostingEnvironment;
-        public InicioController(IUsuarioService usuarioServicio, IHostingEnvironment hostingEnvironment)
+        private readonly ICorreoService _CorreoService;
+
+        public InicioController(IUsuarioService usuarioServicio, ICorreoService CorreoService)
         {
             _usuarioServicio = usuarioServicio;
-            _hostingEnvironment = hostingEnvironment;
+            _CorreoService = CorreoService;
         }
 
         public IActionResult Registrarse()
@@ -34,43 +35,43 @@ namespace RifasOnline.Controllers
             modelo.Clave = Utilidades.EncriptarClave(modelo.Clave);
             var ConfirmarClave = Utilidades.EncriptarClave(modelo.ConfirmarClave);
             modelo.Restablecer = false;
-            modelo.Token = Utilidades.GenerarToken();            
-            
+            modelo.Token = Utilidades.GenerarToken();
+
             if (ConfirmarClave == modelo.Clave)
             {
-                if(await _usuarioServicio.GetEmailUsuario(modelo.Correo) == false)
+                if (await _usuarioServicio.GetEmailUsuario(modelo.Correo) == false)
                 {
                     bool respuesta = await _usuarioServicio.SaveUsuario(modelo);
 
                     if (respuesta == true)
                     {
 
-                        //string path = Path.Combine(_hostingEnvironment.WebRootPath, "Plantilla", "Confirmar.html");
-                        //string content = ReadAllText(path);
+                        //string path = HttpContext.Server.MapPath("~/Plantilla/Confirmar.html");
+                        //string content = System.IO.File.ReadAllText(path);
+                        //string url = string.Format("{0}://{1}{2}", Request.Url.Scheme, Request.Headers["host"], "/Inicio/Confirmar?token=" + modelo.Token);
 
-                        //string url = string.Concat(Request.Scheme, "://", Request.Host.Value, "/Inicio/Confirmar?token=", modelo.Token);
+                        string htmlBody = "Hola Mundo";/*string.Format(content, modelo.NombreUsuario, url);*/
 
-                        //string htmlBody = string.Format(content, modelo.NombreUsuario, url);
+                        CorreoDTO correoDTO = new CorreoDTO()
+                        {
+                            Destinatario = modelo.Correo,
+                            Asunto = "Correo confirmacion",
+                            Contenido = htmlBody
+                        };
 
-                        //CorreoDTO correoDTO = new CorreoDTO()
-                        //{
-                        //    Destinatario = modelo.Correo,
-                        //    Asunto = "Correo confirmacion",
-                        //    Contenido = htmlBody
-                        //};
-
-                        //bool enviado = CorreoServicio.SendEmail(correoDTO);
-                        //ViewBag.Creado = true;
-                        //ViewBag.Mensaje = $"Su cuenta ha sido creada. Hemos enviado un mensaje al correo {modelo.Correo} para confirmar su cuenta";
+                        bool enviado = _CorreoService.EnviarCorreo(correoDTO);
+                        ViewBag.Creado = true;
+                        ViewBag.Mensaje = $"Su cuenta ha sido creada. Hemos enviado un mensaje al correo {modelo.Correo} para confirmar su cuenta";
 
 
                         return RedirectToAction("IniciarSesion", "Inicio");
                     }
                     else
                     {
-                       ViewData["Mensaje"] = "No se pudo crear el usuario";
+                        ViewData["Mensaje"] = "No se pudo crear el usuario";
                     }
-                }else
+                }
+                else
                 {
                     ViewData["Mensaje"] = "El email ya se encuentra registrado revise!!";
                 }
@@ -81,7 +82,13 @@ namespace RifasOnline.Controllers
                 ViewBag.Correo = modelo.Correo;
                 ViewData["Mensaje"] = "Las contranseñas no coinciden revise!!";
             }
-            return View();       
+            return View();
+        }
+
+        public ActionResult Confirmar(string token)
+        {
+            ViewBag.Respuesta = _usuarioServicio.Confirmar(token);
+            return View();
         }
 
         public async Task<IActionResult> ActualizarClave()

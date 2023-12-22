@@ -9,21 +9,22 @@ using RifasOnline.Servicios.Contrato;
 
 namespace RifasOnline.Servicios.Implementacion
 {
-    public class CorreoServicio : IEmailService
+    public class CorreoServicio : ICorreoService
     {
-        private readonly IConfiguration _config;               
+        private static string _Host = "smtp.gmail.com";
+        private static int _Puerto = 587;
 
-        public CorreoServicio(IConfiguration config)
-        {
-            _config = config;
-        }
-        
-        public bool SendEmail(CorreoDTO correoDto)
+        private static string _NombreEnvia = "Luis Estepa";
+        private static string _Correo = "luis.estepa2021@gmail.com";
+        private static string _Clave = "";
+
+        public bool EnviarCorreo(CorreoDTO correoDto)
         {
             try
             {
                 var email = new MimeMessage();
-                email.From.Add(new MailboxAddress(_config.GetSection("Email:UserName").Value,""));
+
+                email.From.Add(new MailboxAddress(_NombreEnvia, _Correo));
                 email.To.Add(MailboxAddress.Parse(correoDto.Destinatario));
                 email.Subject = correoDto.Asunto;
                 email.Body = new TextPart(TextFormat.Html)
@@ -32,15 +33,12 @@ namespace RifasOnline.Servicios.Implementacion
                 };
 
                 var smtp = new SmtpClient();
-                smtp.Connect(_config.GetSection("Email:Host").Value,
-                             Convert.ToInt32(_config.GetSection("Email:Port").Value),
-                             SecureSocketOptions.StartTls);
-                smtp.Authenticate(_config.GetSection("Email:UserName").Value, _config.GetSection("Email:PassWord").Value);
+                smtp.Connect(_Host, _Puerto, SecureSocketOptions.StartTls);
+
+                smtp.Authenticate(_Correo, _Clave);
                 smtp.Send(email);
                 smtp.Disconnect(true);
-                
                 return true;
-
             }
             catch
             {

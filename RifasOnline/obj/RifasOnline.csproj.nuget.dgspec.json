@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Desarrollo\\RifasOnline\\RifasOnline\\RifasOnline.csproj": {}
+    "C:\\DEVLUIS\\LuisEstepa\\RifasOnline\\RifasOnline\\RifasOnline.csproj": {}
   },
   "projects": {
-    "E:\\Desarrollo\\RifasOnline\\RifasOnline\\RifasOnline.csproj": {
+    "C:\\DEVLUIS\\LuisEstepa\\RifasOnline\\RifasOnline\\RifasOnline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\RifasOnline.csproj",
+        "projectUniqueName": "C:\\DEVLUIS\\LuisEstepa\\RifasOnline\\RifasOnline\\RifasOnline.csproj",
         "projectName": "RifasOnline",
-        "projectPath": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\RifasOnline.csproj",
-        "packagesPath": "C:\\Users\\LUIS\\.nuget\\packages\\",
-        "outputPath": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\obj\\",
+        "projectPath": "C:\\DEVLUIS\\LuisEstepa\\RifasOnline\\RifasOnline\\RifasOnline.csproj",
+        "packagesPath": "C:\\Users\\DESKTOP-LUIS\\.nuget\\packages\\",
+        "outputPath": "C:\\DEVLUIS\\LuisEstepa\\RifasOnline\\RifasOnline\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\LUIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DESKTOP-LUIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,6 +54,12 @@
               "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.0, )"
             },

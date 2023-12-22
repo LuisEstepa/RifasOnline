@@ -1,8 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using RifasOnline.Models;
 using RifasOnline.Models.Entities;
 using RifasOnline.Servicios.Contrato;
+using System.Data;
 
 namespace RifasOnline.Servicios.Implementacion
 {
@@ -58,6 +60,19 @@ namespace RifasOnline.Servicios.Implementacion
             else 
                 return false;
         }
-        
+
+        public async Task<bool> Confirmar(string token)
+        {
+            Usuario UsuarioActualizar = await _Context.Usuarios.Where(l => l.Token == token).FirstOrDefaultAsync();
+            UsuarioActualizar.Confirmado = true;
+            _Context.Entry(UsuarioActualizar).State = EntityState.Modified;
+
+            if (_Context.SaveChanges() == 1)
+                return true;
+            else
+                return false;
+            
+        }
+
     }
 }

@@ -2,8 +2,8 @@
 
 namespace RifasOnline.Servicios.Contrato
 {
-    public interface IEmailService
+    public interface ICorreoService
     {
-        void SendEmail(CorreoDTO request);
+        bool EnviarCorreo(CorreoDTO correoDto);
     }
 }
