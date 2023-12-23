@@ -7,7 +7,7 @@ using RifasOnline.Recursos;
 using RifasOnline.Models.Entities;
 using RifasOnline.Models.DTO;
 using RifasOnline.Servicios.Implementacion;
-using Microsoft.AspNetCore.Http;
+
 namespace RifasOnline.Controllers
 {
     public class InicioController : Controller
@@ -50,9 +50,6 @@ namespace RifasOnline.Controllers
                         //path = Path.Combine(webRootPath, "CSS");
                         string path = Path.Combine(contentRootPath , "Plantilla" ,"Confirmar.html" );
                         string content = System.IO.File.ReadAllText(path);
-
-                        //string path = HttpContext.Server.MapPath("~/Plantilla/Confirmar.html");
-
                         string url = string.Format("{0}://{1}{2}", HttpContext.Request.Scheme, Request.Headers["host"], "/Inicio/Confirmar?token=" + modelo.Token);
 
                         string htmlBody = string.Format(content, modelo.NombreUsuario, url);
@@ -90,9 +87,9 @@ namespace RifasOnline.Controllers
             return View();
         }
 
-        public IActionResult Confirmar(string token)
+        public async Task<IActionResult> Confirmar(string token)
         {
-            ViewBag.Respuesta = _usuarioServicio.Confirmar(token);
+            ViewBag.Respuesta = await _usuarioServicio.Confirmar(token);
             return View();
         }
 
