@@ -16,12 +16,10 @@ namespace RifasOnline.Controllers
     public class InicioController : Controller
     {
         private readonly IUsuarioService _usuarioServicio;
-        private readonly ICorreoService _CorreoService;
 
-        public InicioController(IUsuarioService usuarioServicio, ICorreoService CorreoService)
+        public InicioController(IUsuarioService usuarioServicio)
         {
             _usuarioServicio = usuarioServicio;
-            _CorreoService = CorreoService;
         }
 
         public IActionResult Registrarse()
@@ -32,6 +30,7 @@ namespace RifasOnline.Controllers
         [HttpPost]
         public async Task<IActionResult> Registrarse(Usuario modelo)
         {
+            CorreoServicio correo = new();
             modelo.Clave = Utilidades.EncriptarClave(modelo.Clave);
             var ConfirmarClave = Utilidades.EncriptarClave(modelo.ConfirmarClave);
             modelo.Restablecer = false;
@@ -50,7 +49,8 @@ namespace RifasOnline.Controllers
                         //string content = System.IO.File.ReadAllText(path);
                         //string url = string.Format("{0}://{1}{2}", Request.Url.Scheme, Request.Headers["host"], "/Inicio/Confirmar?token=" + modelo.Token);
 
-                        string htmlBody = "Hola Mundo";/*string.Format(content, modelo.NombreUsuario, url);*/
+                        /*string htmlBody = string.Format(content, modelo.NombreUsuario, url);*/
+                        string htmlBody = "Hola Mundo";
 
                         CorreoDTO correoDTO = new CorreoDTO()
                         {
@@ -59,7 +59,7 @@ namespace RifasOnline.Controllers
                             Contenido = htmlBody
                         };
 
-                        bool enviado = _CorreoService.EnviarCorreo(correoDTO);
+                        bool enviado = correo.EnviarCorreo(correoDTO);
                         ViewBag.Creado = true;
                         ViewBag.Mensaje = $"Su cuenta ha sido creada. Hemos enviado un mensaje al correo {modelo.Correo} para confirmar su cuenta";
 

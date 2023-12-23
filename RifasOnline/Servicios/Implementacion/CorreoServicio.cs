@@ -13,10 +13,9 @@ namespace RifasOnline.Servicios.Implementacion
     {
         private static string _Host = "smtp.gmail.com";
         private static int _Puerto = 587;
-
-        private static string _NombreEnvia = "Luis Estepa";
+        private static string _NombreEnvia = "luis.estepa2021@gmail.com";
         private static string _Correo = "luis.estepa2021@gmail.com";
-        private static string _Clave = "";
+        private static string _Clave = "vkjpvnrlyrlhvplr";
 
         public bool EnviarCorreo(CorreoDTO correoDto)
         {
@@ -31,7 +30,6 @@ namespace RifasOnline.Servicios.Implementacion
                 {
                     Text = correoDto.Contenido
                 };
-
                 var smtp = new SmtpClient();
                 smtp.Connect(_Host, _Puerto, SecureSocketOptions.StartTls);
 
