@@ -8221,23 +8221,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DESKTOP-LUIS\\.nuget\\packages\\": {},
+    "C:\\Users\\LUIS\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DEVLUIS\\LuisEstepa\\RifasOnline\\RifasOnline\\RifasOnline.csproj",
+      "projectUniqueName": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\RifasOnline.csproj",
       "projectName": "RifasOnline",
-      "projectPath": "C:\\DEVLUIS\\LuisEstepa\\RifasOnline\\RifasOnline\\RifasOnline.csproj",
-      "packagesPath": "C:\\Users\\DESKTOP-LUIS\\.nuget\\packages\\",
-      "outputPath": "C:\\DEVLUIS\\LuisEstepa\\RifasOnline\\RifasOnline\\obj\\",
+      "projectPath": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\RifasOnline.csproj",
+      "packagesPath": "C:\\Users\\LUIS\\.nuget\\packages\\",
+      "outputPath": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\DESKTOP-LUIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LUIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8246,7 +8246,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
