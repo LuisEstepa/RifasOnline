@@ -8,18 +8,17 @@ using RifasOnline.Models.Entities;
 using RifasOnline.Models.DTO;
 using RifasOnline.Servicios.Implementacion;
 using Microsoft.AspNetCore.Http;
-using System.IO;
-using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
-
 namespace RifasOnline.Controllers
 {
     public class InicioController : Controller
     {
         private readonly IUsuarioService _usuarioServicio;
+        private readonly IWebHostEnvironment _WebHostEnvironment;
 
-        public InicioController(IUsuarioService usuarioServicio)
+        public InicioController(IUsuarioService usuarioServicio, IWebHostEnvironment webHostEnvironment)
         {
             _usuarioServicio = usuarioServicio;
+            _WebHostEnvironment = webHostEnvironment;
         }
 
         public IActionResult Registrarse()
@@ -35,6 +34,7 @@ namespace RifasOnline.Controllers
             var ConfirmarClave = Utilidades.EncriptarClave(modelo.ConfirmarClave);
             modelo.Restablecer = false;
             modelo.Token = Utilidades.GenerarToken();
+            modelo.Confirmado = false;
 
             if (ConfirmarClave == modelo.Clave)
             {
@@ -44,13 +44,18 @@ namespace RifasOnline.Controllers
 
                     if (respuesta == true)
                     {
+                        string webRootPath = _WebHostEnvironment.WebRootPath;
+                        string contentRootPath = _WebHostEnvironment.ContentRootPath;
+                                                
+                        //path = Path.Combine(webRootPath, "CSS");
+                        string path = Path.Combine(contentRootPath , "Plantilla" ,"Confirmar.html" );
+                        string content = System.IO.File.ReadAllText(path);
 
                         //string path = HttpContext.Server.MapPath("~/Plantilla/Confirmar.html");
-                        //string content = System.IO.File.ReadAllText(path);
-                        //string url = string.Format("{0}://{1}{2}", Request.Url.Scheme, Request.Headers["host"], "/Inicio/Confirmar?token=" + modelo.Token);
 
-                        /*string htmlBody = string.Format(content, modelo.NombreUsuario, url);*/
-                        string htmlBody = "Hola Mundo";
+                        string url = string.Format("{0}://{1}{2}", HttpContext.Request.Scheme, Request.Headers["host"], "/Inicio/Confirmar?token=" + modelo.Token);
+
+                        string htmlBody = string.Format(content, modelo.NombreUsuario, url);
 
                         CorreoDTO correoDTO = new CorreoDTO()
                         {
@@ -85,13 +90,13 @@ namespace RifasOnline.Controllers
             return View();
         }
 
-        public ActionResult Confirmar(string token)
+        public IActionResult Confirmar(string token)
         {
             ViewBag.Respuesta = _usuarioServicio.Confirmar(token);
             return View();
         }
 
-        public async Task<IActionResult> ActualizarClave()
+        public IActionResult ActualizarClave()
         {
             return View();
         }
