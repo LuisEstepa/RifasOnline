@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Desarrollo\\RifasOnline\\RifasOnline\\RifasOnline.csproj": {}
+    "D:\\RifasOnline\\RifasOnline\\RifasOnline.csproj": {}
   },
   "projects": {
-    "E:\\Desarrollo\\RifasOnline\\RifasOnline\\RifasOnline.csproj": {
+    "D:\\RifasOnline\\RifasOnline\\RifasOnline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\RifasOnline.csproj",
+        "projectUniqueName": "D:\\RifasOnline\\RifasOnline\\RifasOnline.csproj",
         "projectName": "RifasOnline",
-        "projectPath": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\RifasOnline.csproj",
-        "packagesPath": "C:\\Users\\LUIS\\.nuget\\packages\\",
-        "outputPath": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\obj\\",
+        "projectPath": "D:\\RifasOnline\\RifasOnline\\RifasOnline.csproj",
+        "packagesPath": "C:\\Users\\luis.estepa\\.nuget\\packages\\",
+        "outputPath": "D:\\RifasOnline\\RifasOnline\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\LUIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\luis.estepa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +28,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
