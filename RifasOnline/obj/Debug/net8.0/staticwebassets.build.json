@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n46LPMmgQExTJ6r/PRC1d54uNIi549DnplfJg3l2/00=",
+  "Hash": "M6+VNhQiDVrfpa9fJykkgQjcTgWNQDUrRnvhlxkYu0k=",
   "Source": "RifasOnline",
   "BasePath": "_content/RifasOnline",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "RifasOnline\\wwwroot",
       "Source": "RifasOnline",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\LUIS\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "Identity": "C:\\Users\\luis.estepa\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\LUIS\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\luis.estepa\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\LUIS\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\luis.estepa\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\LUIS\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\QuickGrid.razor.js",
+      "Identity": "C:\\Users\\luis.estepa\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\QuickGrid.razor.js",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\LUIS\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\luis.estepa\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "QuickGrid.razor.js",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\LUIS\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\QuickGrid.razor.js"
+      "OriginalItemSpec": "C:\\Users\\luis.estepa\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\QuickGrid.razor.js"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RifasOnline.styles.css",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RifasOnline.styles.css",
       "SourceId": "RifasOnline",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "RifasOnline.styles.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RifasOnline.styles.css"
+      "OriginalItemSpec": "D:\\RifasOnline\\RifasOnline\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RifasOnline.styles.css"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RifasOnline.bundle.scp.css",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RifasOnline.bundle.scp.css",
       "SourceId": "RifasOnline",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "RifasOnline.bundle.scp.css",
       "AssetKind": "All",
@@ -90,13 +90,51 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RifasOnline.bundle.scp.css"
+      "OriginalItemSpec": "D:\\RifasOnline\\RifasOnline\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RifasOnline.bundle.scp.css"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\css\\site.css",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\css\\botones.css",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "BasePath": "_content/RifasOnline",
+      "RelativePath": "css/botones.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\botones.css"
+    },
+    {
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\css\\generalsite.css",
+      "SourceId": "RifasOnline",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "BasePath": "_content/RifasOnline",
+      "RelativePath": "css/generalsite.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\generalsite.css"
+    },
+    {
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\css\\site.css",
+      "SourceId": "RifasOnline",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -112,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\favicon.ico",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\favicon.ico",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -131,10 +169,162 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\js\\site.js",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\imagenes\\BackGround\\backgroundInicio.png",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "BasePath": "_content/RifasOnline",
+      "RelativePath": "imagenes/BackGround/backgroundInicio.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\BackGround\\backgroundInicio.png"
+    },
+    {
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\imagenes\\BackGround\\backgroundInicio1.jpg",
+      "SourceId": "RifasOnline",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "BasePath": "_content/RifasOnline",
+      "RelativePath": "imagenes/BackGround/backgroundInicio1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\BackGround\\backgroundInicio1.jpg"
+    },
+    {
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\imagenes\\BackGround\\globos.jpg",
+      "SourceId": "RifasOnline",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "BasePath": "_content/RifasOnline",
+      "RelativePath": "imagenes/BackGround/globos.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\BackGround\\globos.jpg"
+    },
+    {
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\imagenes\\BackGround\\globos-menu.jpg",
+      "SourceId": "RifasOnline",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "BasePath": "_content/RifasOnline",
+      "RelativePath": "imagenes/BackGround/globos-menu.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\BackGround\\globos-menu.jpg"
+    },
+    {
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\imagenes\\BackGround\\Imagen-transicion.png",
+      "SourceId": "RifasOnline",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "BasePath": "_content/RifasOnline",
+      "RelativePath": "imagenes/BackGround/Imagen-transicion.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\BackGround\\Imagen-transicion.png"
+    },
+    {
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\imagenes\\Banner\\img1.jpg",
+      "SourceId": "RifasOnline",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "BasePath": "_content/RifasOnline",
+      "RelativePath": "imagenes/Banner/img1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\Banner\\img1.jpg"
+    },
+    {
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\imagenes\\Banner\\img2.jpg",
+      "SourceId": "RifasOnline",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "BasePath": "_content/RifasOnline",
+      "RelativePath": "imagenes/Banner/img2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\Banner\\img2.jpg"
+    },
+    {
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\imagenes\\Banner\\img3.jpg",
+      "SourceId": "RifasOnline",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "BasePath": "_content/RifasOnline",
+      "RelativePath": "imagenes/Banner/img3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\Banner\\img3.jpg"
+    },
+    {
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\js\\site.js",
+      "SourceId": "RifasOnline",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -150,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -169,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -188,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -207,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -226,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -245,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -264,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -283,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -302,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -321,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -340,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -359,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -378,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -397,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -416,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -435,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -454,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -473,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -492,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -511,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -530,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -549,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -568,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -587,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -606,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -625,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -644,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -663,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -682,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -701,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -720,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -739,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -758,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -777,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -796,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -815,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -834,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -853,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -872,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -891,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -910,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -929,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -948,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -967,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -986,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1005,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1024,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1043,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1062,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1081,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1100,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1119,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1138,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1157,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1176,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1195,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1214,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\RifasOnline\\RifasOnline\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "RifasOnline",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\Desarrollo\\RifasOnline\\RifasOnline\\wwwroot\\",
+      "ContentRoot": "D:\\RifasOnline\\RifasOnline\\wwwroot\\",
       "BasePath": "_content/RifasOnline",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

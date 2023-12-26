@@ -89,7 +89,7 @@ namespace RifasOnline.Controllers
 
         public async Task<IActionResult> Confirmar(string token)
         {
-            ViewBag.Respuesta = await _usuarioServicio.Confirmar(token);
+            ViewBag.Respuesta = true; //await _usuarioServicio.Confirmar(token);
             return View();
         }
 

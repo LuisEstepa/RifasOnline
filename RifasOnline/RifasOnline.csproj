@@ -25,4 +25,13 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Area\" />
+    <Folder Include="Style\css\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\generalsite.css" />
+  </ItemGroup>
+
 </Project>

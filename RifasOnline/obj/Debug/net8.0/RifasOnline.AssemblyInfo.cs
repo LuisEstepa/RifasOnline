@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RifasOnline")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0f5260e3c9dec40bd307dd35a7a238586ccd084")]
 [assembly: System.Reflection.AssemblyProductAttribute("RifasOnline")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RifasOnline")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

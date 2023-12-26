@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RifasOnline.Models;
 
@@ -10,9 +11,11 @@ using RifasOnline.Models;
 namespace RifasOnline.Migrations
 {
     [DbContext(typeof(DbRifasOnlineContext))]
-    partial class DbRifasOnlineContextModelSnapshot : ModelSnapshot
+    [Migration("20231224154952_migracionDbWork")]
+    partial class migracionDbWork
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

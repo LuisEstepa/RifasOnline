@@ -35,6 +35,11 @@ namespace RifasOnline.Controllers
             return View();
         }
 
+        public IActionResult Contacto()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
